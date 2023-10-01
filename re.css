@@ -1,0 +1,60 @@
+body{
+	background: gray;
+	width: 1100px;
+	border: 1px solid red;
+	margin: 0px auto;
+}
+.heder{
+	height: 150px;
+	background: lightblue;
+	padding: 10px;
+}
+.li{
+	margin: -145px 0px 0px 950px;
+}
+.menu{
+	margin: 0px auto;
+	height: 40px;
+	background: #00D90E;
+	overflow: hidden;
+}
+.menu ul{
+	list-style-type: none;
+
+}
+.menu li{
+	list-style-type: none;
+	float: left;
+}
+.menu li a{
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu li a:hover{
+	background: blue;
+	color: red;
+}
+.sidebar{
+	width: 250px;
+	height: 600px;
+	background: yellowgreen;
+	float: left;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+.cont{
+	width: 805px;
+	height: 600px;
+	background: lightblue;
+	float: right;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+.foter{
+	height: 50px;
+	background: black;
+	color: white;
+	clear: both;
+}
